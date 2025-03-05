@@ -1,0 +1,26 @@
+ECHO is on.
+# Byte-compiled / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django secret key & database settings (DO NOT commit sensitive data!)
+*.sqlite3
+*.log
+.env
+
+# Ignore media and static files (optional)
+media/
+staticfiles/
+
+# VS Code settings (optional)
+.vscode/
+
+# Ignore compiled migrations (optional, but useful if you want fresh migrations)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
